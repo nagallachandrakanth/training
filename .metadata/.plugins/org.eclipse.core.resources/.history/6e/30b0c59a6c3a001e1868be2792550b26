@@ -1,0 +1,25 @@
+package com.jsp.jdbc;
+
+public class Employee {
+
+	private Integer slno;
+	private String name;
+	private String email;
+	private String phonenumber;
+
+	public Employee() {
+		super();
+	}
+
+	public Employee(Integer slno, String name, String email, String phonenumber) {
+		this.slno = slno;
+		this.name = name;
+		this.email = email;
+		this.phonenumber = phonenumber;
+	}
+	
+	public Integer getSlno() {
+		return slno;
+	}
+
+}

@@ -1,0 +1,19 @@
+package com.jsp.jdbc;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class EmployeeMain {
+
+	public static void main(String[] args) {
+		List<Employee> employee = new ArrayList<Employee>();
+		employee.add(new Employee(2, "durga", "durga@gamil.com", "123467890"));
+		employee.add(new Employee(3, "teja", "teja@gamil.com", "123467890"));
+		employee.add(new Employee(4, "suresh", "suresh@gamil.com", "123467890"));
+		employee.add(new Employee(5, "naresh", "naresh@gamil.com", "123467890"));
+		employee.add(new Employee(6, "anup", "anup@gamil.com", "123467890"));
+		employee.add(new Employee(7, "saran", "saran@gamil.com", "123467890"));
+
+	}
+
+}
